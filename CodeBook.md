@@ -1,4 +1,4 @@
-						CODE BOOK for the file	"filestep5.txt"
+						##CODE BOOK for the file	"filestep5.txt"##
 
 
 Content:
@@ -123,13 +123,13 @@ VARIABLES IN THE TIDY DATA SET
 
 										
 VARIABLE
-[1] "subject" (VOLUNTEER)
-[2] "activity" (WALKING, WALKING_UPSTAIRS, ETC)                                              
-[3] "TimeBodyAccelerometer.StandardDeviation.X" ("Average of Measurement of Standar Deviation of Time from Body Accelerometer, in the X direction")
-[4] "TimeBodyAccelerometer.StandardDeviation.Y"
-[5] "TimeBodyAccelerometer.StandardDeviation.Z"
-[6] "TimeGravityAccelerometer.StandardDeviation.X"
-[7] "TimeGravityAccelerometer.StandardDeviation.Y"
+[1] "subject" (VOLUNTEER)          
+[2] "activity" (WALKING, WALKING_UPSTAIRS, ETC)                                                        
+[3] "TimeBodyAccelerometer.StandardDeviation.X" ("Average of Measurement of Standar Deviation of Time from Body Accelerometer, in the X direction")          
+[4] "TimeBodyAccelerometer.StandardDeviation.Y"          
+[5] "TimeBodyAccelerometer.StandardDeviation.Z"          
+[6] "TimeGravityAccelerometer.StandardDeviation.X"          
+[7] "TimeGravityAccelerometer.StandardDeviation.Y"          
 [8] "TimeGravityAccelerometer.StandardDeviation.Z"           
 [9] "TimeBodyAccelerometerJerk.StandardDeviation.X"          
 [10] "TimeBodyAccelerometerJerk.StandardDeviation.Y"          
@@ -145,7 +145,7 @@ VARIABLE
 [20] "TimeBodyAccelerometerJerkMag.StandardDeviation"         
 [21] "TimeBodyGyroscopeMag.StandardDeviation"                 
 [22] "TimeBodyGyroscopeJerkMag.StandardDeviation"             
-[23] "FrecuencyBodyAccelerometer.StandardDeviation.X"("Average of Measurement of Standar Deviation of Frequency Domain Signal from Body Accelerometer, in the X direction")
+[23] "FrecuencyBodyAccelerometer.StandardDeviation.X"("Average of Measurement of Standar Deviation of Frequency Domain Signal from Body Accelerometer, in the X direction")          
 [24] "FrecuencyBodyAccelerometer.StandardDeviation.Y"         
 [25] "FrecuencyBodyAccelerometer.StandardDeviation.Z"         
 [26] "FrecuencyBodyAccelerometerJerk.StandardDeviation.X"     
@@ -158,7 +158,7 @@ VARIABLE
 [33] "FrecuencyBodyBodyAccelerometerJerkMag.StandardDeviation"
 [34] "FrecuencyBodyBodyGyroscopeMag.StandardDeviation"        
 [35] "FrecuencyBodyBodyGyroscopeJerkMag.StandardDeviation"    
-[36] "TimeBodyAccelerometer.mean...X"("Average of Measurement of Mean of Time from Body Accelerometer, in the X direction")
+[36] "TimeBodyAccelerometer.mean...X"("Average of Measurement of Mean of Time from Body Accelerometer, in the X direction")          
 [37] "TimeBodyAccelerometer.mean...Y"                         
 [38] "TimeBodyAccelerometer.mean...Z"                         
 [39] "TimeGravityAccelerometer.mean...X"                      
