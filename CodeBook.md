@@ -122,16 +122,16 @@ VARIABLES IN THE TIDY DATA SET
 86 Variables estimated from the signals (ONLY the measurements on the MEAN and STANDARD DEVIATION for each measurement where selected):
 
 										
-VARIABLE										DESCRIPTION EXAMPLE
-[1] "subject"                                                		VOLUNTEER
- [2] "activity" 							WALKING, WALKING_UPSTAIRS...                                              
- [3] "TimeBodyAccelerometer.StandardDeviation.X" 			"Average of Measurement of Standar Deviation of Time from Body Accelerometer, in the X direction"             
- [4] "TimeBodyAccelerometer.StandardDeviation.Y"              
- [5] "TimeBodyAccelerometer.StandardDeviation.Z"              
- [6] "TimeGravityAccelerometer.StandardDeviation.X"           
- [7] "TimeGravityAccelerometer.StandardDeviation.Y"           
- [8] "TimeGravityAccelerometer.StandardDeviation.Z"           
- [9] "TimeBodyAccelerometerJerk.StandardDeviation.X"          
+VARIABLE
+[1] "subject" (VOLUNTEER)
+[2] "activity" (WALKING, WALKING_UPSTAIRS, ETC)                                              
+[3] "TimeBodyAccelerometer.StandardDeviation.X" ("Average of Measurement of Standar Deviation of Time from Body Accelerometer, in the X direction")
+[4] "TimeBodyAccelerometer.StandardDeviation.Y"
+[5] "TimeBodyAccelerometer.StandardDeviation.Z"
+[6] "TimeGravityAccelerometer.StandardDeviation.X"
+[7] "TimeGravityAccelerometer.StandardDeviation.Y"
+[8] "TimeGravityAccelerometer.StandardDeviation.Z"           
+[9] "TimeBodyAccelerometerJerk.StandardDeviation.X"          
 [10] "TimeBodyAccelerometerJerk.StandardDeviation.Y"          
 [11] "TimeBodyAccelerometerJerk.StandardDeviation.Z"          
 [12] "TimeBodyGyroscope.StandardDeviation.X"                  
@@ -145,7 +145,7 @@ VARIABLE										DESCRIPTION EXAMPLE
 [20] "TimeBodyAccelerometerJerkMag.StandardDeviation"         
 [21] "TimeBodyGyroscopeMag.StandardDeviation"                 
 [22] "TimeBodyGyroscopeJerkMag.StandardDeviation"             
-[23] "FrecuencyBodyAccelerometer.StandardDeviation.X" 			"Average of Measurement of Standar Deviation of Frequency Domain Signal from Body Accelerometer, in the X direction"        
+[23] "FrecuencyBodyAccelerometer.StandardDeviation.X"("Average of Measurement of Standar Deviation of Frequency Domain Signal from Body Accelerometer, in the X direction")
 [24] "FrecuencyBodyAccelerometer.StandardDeviation.Y"         
 [25] "FrecuencyBodyAccelerometer.StandardDeviation.Z"         
 [26] "FrecuencyBodyAccelerometerJerk.StandardDeviation.X"     
@@ -158,7 +158,7 @@ VARIABLE										DESCRIPTION EXAMPLE
 [33] "FrecuencyBodyBodyAccelerometerJerkMag.StandardDeviation"
 [34] "FrecuencyBodyBodyGyroscopeMag.StandardDeviation"        
 [35] "FrecuencyBodyBodyGyroscopeJerkMag.StandardDeviation"    
-[36] "TimeBodyAccelerometer.mean...X" 					"Average of Measurement of Mean of Time from Body Accelerometer, in the X direction"                                     
+[36] "TimeBodyAccelerometer.mean...X"("Average of Measurement of Mean of Time from Body Accelerometer, in the X direction")
 [37] "TimeBodyAccelerometer.mean...Y"                         
 [38] "TimeBodyAccelerometer.mean...Z"                         
 [39] "TimeGravityAccelerometer.mean...X"                      
