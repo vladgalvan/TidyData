@@ -1,4 +1,4 @@
-						##CODE BOOK for the file	"filestep5.txt"##
+						##CODE BOOK for the file	"filestep5.txt"
 
 
 Content:
@@ -123,8 +123,9 @@ VARIABLES IN THE TIDY DATA SET
 
 										
 VARIABLE
+
 [1] "subject" (VOLUNTEER)          
-[2] "activity" (WALKING, WALKING_UPSTAIRS, ETC)                                                        
+[2] "activity" (WALKING, WALKING_UPSTAIRS, ETC)          
 [3] "TimeBodyAccelerometer.StandardDeviation.X" ("Average of Measurement of Standar Deviation of Time from Body Accelerometer, in the X direction")          
 [4] "TimeBodyAccelerometer.StandardDeviation.Y"          
 [5] "TimeBodyAccelerometer.StandardDeviation.Z"          
